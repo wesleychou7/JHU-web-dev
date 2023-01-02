@@ -5,13 +5,25 @@ h1{
     text-align: center;
     margin: 40px;
 }
-div.box{
+.box{
     position: relative;
-    margin: 20px;
+    margin: 10px;
     border: 1px solid black;
-    padding: 10px;
 }
-
+.name{
+    float: right;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.description{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /* desktop view (large)*/
 @media (min-width: 992px) {
@@ -26,19 +38,18 @@ div.box{
     }
     .col-lg-12{
         width: 100%;
-    }
+    } 
 }
 
 /* tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6, .col-md-12{
-        float: left;
-    }
     .col-md-6{
         width: 50%;
+        float: left;
     }
     .col-md-12{
         width: 100%;
+        float: left;
     }
 }
 
