@@ -3,7 +3,7 @@ body{
 }
 
 
-/* start header */
+
 #header-nav{
     background-color: lightgray;
     border-radius: 0;
@@ -14,18 +14,14 @@ body{
     font-size: 1.4em;
 }
 
-
 #nav-list a {
     color: black;
-    text-align: center;
     font-size: 1.3em;
 }
 
 #nav-list a:hover {
 	background-color: gray;
 }
-/* end header */
-
 
 
 h1{
@@ -43,40 +39,20 @@ h3{
     background-color: rgb(182, 177, 177);
     border: 3px solid black;
 }
-.namebox{
-    position: absolute;
-    right: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    font-size: 16px;
-    font-family: 'Trebuchet MS';
-    background-color: aquamarine;
-}
-#chicken{
-    background-color: rgb(217, 154, 175);
-}
-#beef{
-    background-color: rgb(191, 70, 70);
-    color: white;
-}
-#sushi{
-    background-color: rgb(228, 218, 126);
+#chicken, #beef, #sushi{
+    margin: 10px;
 }
 p, .box{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     font-size: 1em;
     font-family: 'Trebuchet MS';
 }
-
 .box a{
     margin: 10px;
 }
-
 .row{
     width: 100%;
 }
