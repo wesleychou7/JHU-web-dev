@@ -1,3 +1,3 @@
 # wesleychou7.github.io
 
-John Hopkins' HTML, CSS, JavaScript for Web Developers
+Johns Hopkins University's HTML, CSS, JavaScript for Web Developers course.
